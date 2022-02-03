@@ -1,0 +1,44 @@
+
+body {
+    background-color: #f2f2f2d2;
+}
+
+h1 {
+    background-color: green;
+    color: honeydew;
+    text-align: center;
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* .cheese {
+      height: 300px;
+  } */
+
+  .dishName {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  .footer {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+  }
